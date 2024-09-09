@@ -6,7 +6,7 @@ const server = createServer(app);
 const PORT = "3000"
 
 app.get('/', (req, res) => {
-    res.send('<h1>I LOVE YOU BABY</h1>');
+    res.send('<h1>I LOVE YOU BABIES</h1>');
 });
 
 server.listen(PORT, () => {
